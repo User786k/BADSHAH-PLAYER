@@ -31,6 +31,10 @@ Click the below button to watch the video tutorial on deploying
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/AdityaHalder/Aditya-Player"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
+### Deploy To Railway 🚄</h5>
+
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AdityaHalder/Aditya-Player/Aditya-Player&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+
 ###  GET STRING SESSION FROM REPL RUN
 
  [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@AdityaHalder/PyrogramStringSession#main.py)
