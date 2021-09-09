@@ -1,5 +1,5 @@
-# Aditya Player - Telegram bot for streaming audio in group calls
-# Copyright (C)  Aditya Halder
+# BADSHAH PLAYER - Telegram bot for streaming audio in group calls
+# Copyright (C)  BADSHAH SHAM
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -21,8 +21,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.helpers.errors import DurationLimitError
+from BADSHAHPLAYER.config import DURATION_LIMIT
+from BADSHAHPLAYER.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
