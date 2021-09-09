@@ -1,5 +1,5 @@
-# Aditya Player - Telegram bot for streaming audio in group calls
-# Copyright (C) 2021  Aditya Halder
+# BADSHAH PLAYER - Telegram bot for streaming audio in group calls
+# Copyright (C) 2021  BADSHAH SHAM 
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -19,7 +19,7 @@ from typing import List, Union
 
 from pyrogram import filters
 
-from AdityaPlayer.config import COMMAND_PREFIXES
+from BADSHAH PLAYER.config import COMMAND_PREFIXES
 
 other_filters = filters.group & ~filters.edited & ~filters.via_bot & ~filters.forwarded
 other_filters2 = (
