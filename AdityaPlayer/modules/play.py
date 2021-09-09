@@ -1,5 +1,5 @@
-# AdityaPlayer (Telegram bot project)
-# Copyright (C)  AdityaHalder
+# BADSHAHPLAYER (Telegram bot project)
+# Copyright (C)  BADSHAH SHAM
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
 # published by the Free Software Foundation, either version 3 of the
@@ -32,24 +32,24 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from AdityaPlayer.config import ARQ_API_KEY
-from AdityaPlayer.config import BOT_NAME as bn
-from AdityaPlayer.config import DURATION_LIMIT
-from AdityaPlayer.config import UPDATES_CHANNEL as updateschannel
-from AdityaPlayer.config import que
-from AdityaPlayer.function.admins import admins as a
-from AdityaPlayer.helpers.admins import get_administrators
-from AdityaPlayer.helpers.channelmusic import get_chat_id
-from AdityaPlayer.helpers.errors import DurationLimitError
-from AdityaPlayer.helpers.decorators import errors
-from AdityaPlayer.helpers.decorators import authorized_users_only
-from AdityaPlayer.helpers.filters import command, other_filters
-from AdityaPlayer.helpers.gets import get_file_name
-from AdityaPlayer.services.callsmusic import callsmusic
-from AdityaPlayer.services.callsmusic.callsmusic import client as USER
-from AdityaPlayer.services.converter.converter import convert
-from AdityaPlayer.services.downloaders import youtube
-from AdityaPlayer.services.queues import queues
+from .config import ARQ_API_KEY
+from .config import BOT_NAME as bn
+from BADSHAHPLAYER.config import DURATION_LIMIT
+from BADSHAHPLAYER.config import UPDATES_CHANNEL as updateschannel
+from BADSHAHPLAYER.config import que
+from BADSHAHPLAYER.function.admins import admins as a
+from BADSHAHPLAYER.helpers.admins import get_administrators
+from BADSHAHPLAYER.helpers.channelmusic import get_chat_id
+from BADSHAHPLAYER.helpers.errors import DurationLimitError
+from BADSHAHPLAYER.helpers.decorators import errors
+from BADSHAHPLAYER.helpers.decorators import authorized_users_only
+from BADSHAHPLAYER.helpers.filters import command, other_filters
+from BADSHAHPLAYER.helpers.gets import get_file_name
+from BADSHAHPLAYER.services.callsmusic import callsmusic
+from BADSHAHPLAYER.services.callsmusic.callsmusic import client as USER
+from BADSHAHPLAYER.services.converter.converter import convert
+from BADSHAHPLAYER.services.downloaders import youtube
+from BADSHAHPLAYER.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
@@ -195,8 +195,8 @@ def r_ply(type_):
                 InlineKeyboardButton("📝 Ƥɭɑƴɭɩsʈ 📝", "playlist"),
             ],
             [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬",  url=f"https://t.me/MUSICGROUP111"),
             ],
             [InlineKeyboardButton("❌ Ƈɭøsɘ ❌", "cls")],
         ]
@@ -416,8 +416,8 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("📝 Ƥɭɑƴɭɩsʈ 📝", "playlist"),
                 ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐",url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
                ],
                 [InlineKeyboardButton("❌ Ƈɭøsɘ ❌", "cls")],
             ]
@@ -471,7 +471,7 @@ async def yt(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya Player"
+        user.first_name = "BADSHAH PLAYER"
     usar = user
     wew = usar.id
     try:
@@ -605,8 +605,8 @@ async def yt(_, message: Message):
                     InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐",url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
                 ],
                 [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="cls")],
             ]
@@ -657,7 +657,7 @@ async def yt(_, message: Message):
             await lel.edit(toxxt,reply_markup=koyboard,disable_web_page_preview=True)
             # WHY PEOPLE ALWAYS LOVE TO COPY PASTE ?? (A point to think)
             return
-            # Returning to Aditya
+            # Returning to BADSHAH
         except:
             await lel.edit("**🤖 Ɲø Eɳøʋʛɦ Ʀɘsʋɭʈs ʈø Ƈɦɵøsɘ, Sʈɑɤʈɩɳʛ Ɗɩɤɘƈʈ Ƥɭɑƴ ...")
                         
@@ -688,8 +688,8 @@ async def yt(_, message: Message):
                         InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="menu"),
                     ],
                     [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
                     ],
                     [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="cls")],
                 ]
@@ -750,7 +750,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya Player"
+        user.first_name = "BADSHAH PLAYER"
     usar = user
     wew = usar.id
     try:
@@ -835,8 +835,8 @@ async def play(_, message: Message):
                 InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="menu"),
             ],
             [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
             ],
             [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="cls")],
         ]
@@ -977,8 +977,8 @@ async def deezer(client: Client, message_: Message):
                 InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="menu"),
             ],
             [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
             ],
             [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="cls")],
         ]
@@ -1035,7 +1035,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya Player"
+        user.first_name = "BADSHAH PLAYER"
     usar = user
     wew = usar.id
     try:
@@ -1115,8 +1115,8 @@ async def jiosaavn(client: Client, message_: Message):
                 InlineKeyboardButton("🎧 Ɱɘɳʋ 🎧", callback_data="menu"),
             ],
             [
-                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/adityaserver"),
-                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/adityadiscus"),
+                    InlineKeyboardButton(text="🌐 Ƈɦɑɳɳɘɭ 🌐", url=f"https://t.me/MUSICGROUP111"),
+                    InlineKeyboardButton(text="💬 Ɠɤøʋƥ 💬", url=f"https://t.me/MUSICGROUP111"),
             ],
             [InlineKeyboardButton(text="❌ Ƈɭøsɘ ❌", callback_data="cls")],
         ]
