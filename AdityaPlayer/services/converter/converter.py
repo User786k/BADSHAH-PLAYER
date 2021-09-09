@@ -1,5 +1,5 @@
-# Aditya Player - Telegram bot for streaming audio in group calls
-# Copyright (C)  Aditya Halder
+# BADSHAH PLAYER - Telegram bot for streaming audio in group calls
+# Copyright (C)  BADSHAH SHAM
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from AdityaPlayer.helpers.errors import FFmpegReturnCodeError
+from BADSHAHPLAYER.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
