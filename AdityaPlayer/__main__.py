@@ -1,5 +1,5 @@
-# AdityaPlayer (Telegram bot project)
-# Copyright (C)  Aditya Halder
+# BADSHAH PLAYER (Telegram bot project)
+# Copyright (C)  BADSHAH SHAM
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from AdityaPlayer.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from AdityaPlayer.services.callsmusic import run
+from BADSHAHPLAYER.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from BADSHAHPLAYER.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="AdityaPlayer.modules"),
+    plugins=dict(root="BADSHAHPLAYER.modules"),
 )
 
 bot.start()
